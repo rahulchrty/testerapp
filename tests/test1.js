@@ -1,12 +1,12 @@
 module.exports = {
-    'Demo test Yoda Mobile' : function (browser) {
+    'My Test' : function (browser) {
       browser
-        .url('https://apps.socgen.com/yoda-mobile/')
+        .url('https:myurl.xyz')
         .waitForElementVisible('body')
         .setValue('input[type=email]', '**************')
         .setValue('input[type=password]', '***********')
         .click('button[type=submit]')
-        .assert.titleContains('YODA')
+        .assert.titleContains('appname')
         .waitForElementVisible('div[class=toolbar-inner]')
         .refresh()
         .waitForElementVisible('div[class=toolbar-inner]')
