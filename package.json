@@ -1,0 +1,17 @@
+{
+  "name": "testerapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^1.3.5"
+  },
+  "devDependencies": {
+    "chromedriver": "^81.0.0"
+  }
+}
